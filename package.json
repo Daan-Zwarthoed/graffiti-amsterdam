@@ -1,0 +1,25 @@
+{
+  "name": "graffiti-amsterdam",
+  "version": "1.0.0",
+  "description": "datavisualisatie van graffiti hoeveelheid in amsterdam",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daan-Zwarthoed/graffiti-amsterdam.git"
+  },
+  "author": "Daan Zwarthoed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Daan-Zwarthoed/graffiti-amsterdam/issues"
+  },
+  "homepage": "https://github.com/Daan-Zwarthoed/graffiti-amsterdam#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14",
+    "path": "^0.12.7",
+    "pug": "^3.0.2"
+  }
+}
