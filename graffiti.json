@@ -1,0 +1,83 @@
+[
+    {
+        "lastStop": "Weesperplein",
+        "name": "weesperWibaut",
+        "graffitiAmountEast": 28,
+        "graffitiAmountWest": 21,
+        "averageIncomeEast": 20000,
+        "averageIncomeWest": 20000,
+        "width": 7.5
+    },
+    {
+        "lastStop": "Wibaut straat",
+        "name": "wibautAmstel",
+        "graffitiAmountEast": 39,
+        "graffitiAmountWest": 24,
+        "averageIncomeEast": 20000,
+        "averageIncomeWest": 20000,
+        "width": 7
+    },
+    {
+        "lastStop": "Amstel station",
+        "name": "amstelSparkler",
+        "graffitiAmountEast": 18,
+        "graffitiAmountWest": 21,
+        "averageIncomeEast": 20000,
+        "averageIncomeWest": 20000,
+        "width": 5.8
+    },
+    {
+        "lastStop": "Sparkler weg",
+        "name": "sparklerVandermade",
+        "graffitiAmountEast": 10,
+        "graffitiAmountWest": 14,
+        "averageIncomeEast": 20000,
+        "averageIncomeWest": 20000,
+        "width": 7
+    },
+    {
+        "lastStop": "Van der made weg",
+        "name": "vandermadeDuivendrecht",
+        "graffitiAmountEast": 72,
+        "graffitiAmountWest": 18,
+        "averageIncomeEast": 20000,
+        "averageIncomeWest": 20000,
+        "width": 7
+    },
+    {
+        "lastStop": "Duivendrecht",
+        "name": "duivendrechtStrandvliet",
+        "graffitiAmountEast": 34,
+        "graffitiAmountWest": 29,
+        "averageIncomeEast": 20000,
+        "averageIncomeWest": 20000,
+        "width": 5.5
+    },
+    {
+        "lastStop": "Strandvliet",
+        "name": "strandvlietBijlmer",
+        "graffitiAmountEast": 48,
+        "graffitiAmountWest": 60,
+        "averageIncomeEast": 20000,
+        "averageIncomeWest": 20000,
+        "width": 6.7
+    },
+    {
+        "lastStop": "Bijlmer Arena",
+        "name": "bijlmerBullewijk",
+        "graffitiAmountEast": 6,
+        "graffitiAmountWest": 12,
+        "averageIncomeEast": 20000,
+        "averageIncomeWest": 20000,
+        "width": 5.8
+    },
+    {
+        "lastStop": "Bullewijk",
+        "name": "bullewijkHolendrecht",
+        "graffitiAmountEast": 85,
+        "graffitiAmountWest": 68,
+        "averageIncomeEast": 20000,
+        "averageIncomeWest": 20000,
+        "width": 9.3
+    }
+]
