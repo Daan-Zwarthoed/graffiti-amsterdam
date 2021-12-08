@@ -4,7 +4,9 @@
   "description": "datavisualisatie van graffiti hoeveelheid in amsterdam",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+
   },
   "repository": {
     "type": "git",
