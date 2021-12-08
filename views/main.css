@@ -1,0 +1,164 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  transition: 1s;
+}
+
+body,
+html {
+  height: 100vh;
+  width: 100vw;
+}
+
+.graph {
+  display: flex;
+  flex-direction: row;
+  height: 60vh;
+}
+
+.station {
+  display: flex;
+  flex-direction: column;
+  width: 3vw;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1.5vw;
+}
+
+.station .point {
+  background-color: black;
+  border-radius: 100%;
+  min-width: 1vw;
+  min-height: 1vw;
+}
+
+.station p {
+  transform: rotate(-90deg) translateX(-50%);
+  transform-origin: left left;
+  white-space: nowrap;
+}
+
+.track {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: auto;
+}
+
+.track .line {
+  height: 1%;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 95%;
+}
+
+.east,
+.west {
+  height: 4px;
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+
+.east {
+  bottom: 49.5%;
+}
+
+.west {
+  top: 50.5%;
+}
+
+.east p.amount {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+
+.west p.amount {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 100%);
+}
+
+.growen {
+  height: 200px !important;
+}
+
+.extraInfo {
+  opacity: 0;
+}
+
+.growen .extraInfo {
+  opacity: 1;
+}
+
+.backgroundColorDiv {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(128, 128, 128, 0.5);
+  opacity: 0;
+}
+
+.videoDiv {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+
+.closeVideo {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  height: 2em;
+  width: 2em;
+  text-align: center;
+  color: white;
+  background-color: grey;
+  border-radius: 100%;
+  z-index: 20;
+}
+
+video {
+  opacity: 0;
+  height: 0;
+  width: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.backgroundColorDiv.videoActive {
+  opacity: 1;
+  height: 100vh;
+  width: 100vw;
+}
+
+.videoActive .videoDiv {
+  height: 100vh;
+  width: auto;
+  opacity: 1;
+}
+
+.videoActive video {
+  height: 100vh;
+  opacity: 1;
+  width: auto;
+}
