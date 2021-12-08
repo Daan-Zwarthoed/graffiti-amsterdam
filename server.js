@@ -3,12 +3,13 @@ const app = express();
 const pug = require("pug");
 app.set("view engine", "pug");
 app.use(express.static(__dirname + "/public"));
+const PORT = process.env.PORT || 5000;
 
 app.get("/", function (req, res) {
   const data = require("./graffiti.json");
   res.render("index", { data: data });
 });
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
   console.log("Server is running at port 3000");
 });
