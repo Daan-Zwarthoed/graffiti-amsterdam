@@ -3,7 +3,7 @@ const app = express();
 const pug = require("pug");
 app.set("view engine", "pug");
 app.use(express.static(__dirname + "/public"));
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 
 app.get("/", function (req, res) {
   const data = require("./graffiti.json");

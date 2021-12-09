@@ -28,6 +28,12 @@ html(lang="nl")
 
   body 
     .graph
+      div.directions
+        div.directionsText
+          p east
+          p west
+        div.directionsArrow
+
       each dataPoint in data
         +station(dataPoint)
         +track(dataPoint)
