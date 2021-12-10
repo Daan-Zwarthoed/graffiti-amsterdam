@@ -285,3 +285,8 @@ video {
 .vandermadeDuivendrecht .west p {
   color: black;
 }
+
+.weesperWibaut .west button {
+  opacity: 0;
+  display: none;
+}
