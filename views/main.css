@@ -126,6 +126,7 @@ body > p {
 
 .extraInfo p {
   text-align: center;
+  color: white;
 }
 
 .extraInfo button {
@@ -276,4 +277,11 @@ video {
 .bullewijkHolendrecht .west {
   background-color: #c297b8;
   box-shadow: 1px 1px 0px 0.5px #d4b6cd;
+}
+
+.wibautAmstel .east p,
+.wibautAmstel .west p,
+.vandermadeDuivendrecht .east p,
+.vandermadeDuivendrecht .west p {
+  color: black;
 }
