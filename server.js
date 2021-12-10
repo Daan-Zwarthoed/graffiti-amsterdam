@@ -6,7 +6,7 @@ app.use(express.static(__dirname + "/public"));
 const PORT = process.env.PORT || 3000;
 
 app.get("/", function (req, res) {
-  const data = require("./graffiti.json");
+  const data = require("./public/graffitiJson/graffiti.json");
   res.render("index", { data: data });
 });
 
