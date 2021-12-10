@@ -44,6 +44,12 @@ body > p {
   min-height: 1vw;
 }
 
+.graph > div:nth-of-type(2) .point,
+.graph > div:last-of-type .point {
+  min-width: 1.5vw;
+  min-height: 1.5vw;
+}
+
 .station p {
   transform: rotate(-90deg) translateX(-50%);
   transform-origin: left left;
@@ -80,10 +86,12 @@ body > p {
 
 .east {
   bottom: 49.5%;
+  border-radius: 0.5em 0.5em 0 0;
 }
 
 .west {
   top: 50.5%;
+  border-radius: 0 0 0.5em 0.5em;
 }
 
 .east p.amount {
@@ -106,10 +114,21 @@ body > p {
 
 .extraInfo {
   opacity: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
 }
 
 .growen .extraInfo {
   opacity: 1;
+}
+
+.extraInfo p {
+  text-align: center;
+}
+
+.extraInfo button {
 }
 
 .backgroundColorDiv {
@@ -203,4 +222,58 @@ video {
     0% 80%,
     30% 80%
   );
+}
+
+.weesperWibaut .east,
+.weesperWibaut .west {
+  background-color: #306bac;
+  box-shadow: 1px 1px 0px 0.5px #5989bd;
+}
+
+.wibautAmstel .east,
+.wibautAmstel .west {
+  background-color: #8cfbde;
+  box-shadow: 1px 1px 0px 0.5px #bafdeb;
+}
+
+.amstelSparkler .east,
+.amstelSparkler .west {
+  background-color: #034732;
+  box-shadow: 1px 1px 0px 0.5px #4f7e70;
+}
+
+.sparklerVandermade .east,
+.sparklerVandermade .west {
+  background-color: #008148;
+  box-shadow: 1px 1px 0px 0.5px #4da77f;
+}
+
+.vandermadeDuivendrecht .east,
+.vandermadeDuivendrecht .west {
+  background-color: #ddd617;
+  box-shadow: 1px 1px 0px 0.5px #f1efa2;
+}
+
+.duivendrechtStrandvliet .east,
+.duivendrechtStrandvliet .west {
+  background-color: #ebbc41;
+  box-shadow: 1px 1px 0px 0.5px #f1d07a;
+}
+
+.strandvlietBijlmer .east,
+.strandvlietBijlmer .west {
+  background-color: #ef8a17;
+  box-shadow: 1px 1px 0px 0.5px #f4ad5d;
+}
+
+.bijlmerBullewijk .east,
+.bijlmerBullewijk .west {
+  background-color: #ef2917;
+  box-shadow: 1px 1px 0px 0.5px #f4695d;
+}
+
+.bullewijkHolendrecht .east,
+.bullewijkHolendrecht .west {
+  background-color: #c297b8;
+  box-shadow: 1px 1px 0px 0.5px #d4b6cd;
 }

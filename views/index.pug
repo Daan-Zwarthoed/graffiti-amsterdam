@@ -7,14 +7,14 @@ mixin track(dataPoint)
     .east(style=`height:${dataPoint.graffitiAmountEast}px; width:${dataPoint.width * 0.95}vw;`)
       p.amount= dataPoint.graffitiAmountEast
       div.extraInfo
-        p.averageIncome= `Average income: ${dataPoint.averageIncomeEast}`
-        button.watchVideo(class=dataPoint.name) Watch video
+        p.housePrice= `Woning prijs: ${dataPoint.housePriceEast}`
+        button.watchVideo(class=dataPoint.name) Bekijk video
     .line(style=`width:${dataPoint.width * 0.95}vw;`)
     .west(style=`height:${dataPoint.graffitiAmountWest}px; width:${dataPoint.width * 0.95}vw;`)
       p.amount= dataPoint.graffitiAmountWest
       div.extraInfo
-        p.averageIncome= `Average income: ${dataPoint.averageIncomeWest}`
-        button.watchVideo(class=dataPoint.name) Watch video
+        p.housePrice= `Woning prijs: ${dataPoint.housePriceWest}`
+        button.watchVideo(class=dataPoint.name) Bekijk video
 
 doctype html
 html(lang="nl")
@@ -24,11 +24,11 @@ html(lang="nl")
     meta(name="viewport" content="width=device-width, initial-scale=1.0")
     style 
       include ./main.css
-    title amsterdam graffiti
+    title Amsterdam graffiti
 
   body 
-    h1 Graffiti en inkomen per wijk. Is er een link?
-    p Wij wilde kijken of de hoveelheid graffiti per wijk die we tegen kwamen onderweg naar huis een relatie had met de hoeveelheid die mensen gemiddeld te besteden hadden per maand in die wijk. Daarvoor hebben wij de onderstaande visualisatie voor gemaakt.
+    h1 Hoeveelheid graffiti en woningwaarde. Is er een link?
+    p Wij wilde kijken of de hoveelheid graffiti per wijk die we tegen kwamen onderweg naar huis een relatie had met de woningwaarde in die wijk. Daarvoor hebben wij de onderstaande visualisatie voor gemaakt.
     .graph
       div.directions
         div.directionsText
