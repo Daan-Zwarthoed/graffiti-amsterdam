@@ -76,8 +76,8 @@
         "name": "bullewijkHolendrecht",
         "graffitiAmountEast": 85,
         "graffitiAmountWest": 68,
-        "housePriceEast": 20000,
-        "housePriceWest": 20000,
+        "housePriceEast": "240.000",
+        "housePriceWest": "240.000",
         "width": 9.3
     }
 ]
