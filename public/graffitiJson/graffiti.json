@@ -4,8 +4,8 @@
         "name": "weesperWibaut",
         "graffitiAmountEast": 28,
         "graffitiAmountWest": 21,
-        "housePriceEast": 20000,
-        "housePriceWest": 20000,
+        "housePriceEast": "507.000",
+        "housePriceWest": "507.000",
         "width": 7.5
     },
     {
@@ -13,8 +13,8 @@
         "name": "wibautAmstel",
         "graffitiAmountEast": 39,
         "graffitiAmountWest": 24,
-        "housePriceEast": 20000,
-        "housePriceWest": 20000,
+        "housePriceEast": "507.000",
+        "housePriceWest": "507.000",
         "width": 7
     },
     {
@@ -22,8 +22,8 @@
         "name": "amstelSparkler",
         "graffitiAmountEast": 18,
         "graffitiAmountWest": 21,
-        "housePriceEast": 20000,
-        "housePriceWest": 20000,
+        "housePriceEast": "311.000",
+        "housePriceWest": "311.000",
         "width": 5.8
     },
     {
@@ -31,8 +31,8 @@
         "name": "sparklerVandermade",
         "graffitiAmountEast": 10,
         "graffitiAmountWest": 14,
-        "housePriceEast": 20000,
-        "housePriceWest": 20000,
+        "housePriceEast": "311.000",
+        "housePriceWest": "311.000",
         "width": 7
     },
     {
@@ -40,8 +40,8 @@
         "name": "vandermadeDuivendrecht",
         "graffitiAmountEast": 72,
         "graffitiAmountWest": 18,
-        "housePriceEast": 20000,
-        "housePriceWest": 20000,
+        "housePriceEast": "N.A.",
+        "housePriceWest": "N.A.",
         "width": 7
     },
     {
@@ -49,8 +49,8 @@
         "name": "duivendrechtStrandvliet",
         "graffitiAmountEast": 34,
         "graffitiAmountWest": 29,
-        "housePriceEast": 20000,
-        "housePriceWest": 20000,
+        "housePriceEast": "N.A.",
+        "housePriceWest": "N.A.",
         "width": 5.5
     },
     {
@@ -58,8 +58,8 @@
         "name": "strandvlietBijlmer",
         "graffitiAmountEast": 48,
         "graffitiAmountWest": 60,
-        "housePriceEast": 20000,
-        "housePriceWest": 20000,
+        "housePriceEast": "198.000",
+        "housePriceWest": "198.000",
         "width": 6.7
     },
     {
@@ -67,8 +67,8 @@
         "name": "bijlmerBullewijk",
         "graffitiAmountEast": 6,
         "graffitiAmountWest": 12,
-        "housePriceEast": 20000,
-        "housePriceWest": 20000,
+        "housePriceEast": "107.000",
+        "housePriceWest": "107.000",
         "width": 5.8
     },
     {
