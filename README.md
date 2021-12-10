@@ -14,6 +14,9 @@ Wij wilde kijken of de hoveelheid graffiti per wijk die we tegen kwamen onderweg
 1. Then run `npm install` to install the dependencies
 1. Then run `npm run dev` to start a dev localhost
 
+### Logboek en reflectie
+Logboek en reflectie vind je in onze [wiki](https://github.com/Daan-Zwarthoed/graffiti-amsterdam/wiki)
+
 ### Bronnen
 * 
 
